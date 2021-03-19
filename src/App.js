@@ -8,12 +8,12 @@ import React, { Component } from 'react';
 
 class App extends Component {
   constructor(props) {
-      super(props);
-      this.state = {
-        dishes: DISHES
-      };
+    super(props);
+    this.state = {
+      dishes: DISHES
+    };
   }
-  render(){
+  render() {
     return (
       <div>
         <Navbar dark color="primary">
@@ -25,7 +25,6 @@ class App extends Component {
       </div>
     );
   }
-  
 }
 
 export default App;
