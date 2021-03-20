@@ -2,6 +2,7 @@ import Main from './components/MainComponent';
 import { DISHES } from './shared/dishes';
 import React, { Component } from 'react';
 import './App.css';
+import { BrowserRouter } from 'react-router-dom';
 
 class App extends Component {
   constructor(props) {
@@ -12,9 +13,11 @@ class App extends Component {
   }
   render() {
     return (
-      <div className="App">
+      <BrowserRouter>
+       <div>
         <Main />
       </div>
+      </BrowserRouter>
     );
   }
   
